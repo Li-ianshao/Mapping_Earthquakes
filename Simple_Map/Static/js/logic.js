@@ -35,3 +35,9 @@ d3.json(torontoData).then(function(data) {
   // Creating a GeoJSON layer with the retrieved data.
   L.geoJSON(data).addTo(map);
 });
+
+// Create a style for the lines.
+let myStyle = {
+  color: "#ffffa1",
+  weight: 2
+}
